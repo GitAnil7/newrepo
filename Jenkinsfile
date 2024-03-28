@@ -9,7 +9,7 @@ pipeline{
     stages {
         stage('dev1') {
             steps {
-                sh 'echo "sprint1 applicaiton" '
+                sh 'echo "develpoment applicaiton" '
             }
         }
     stages {
