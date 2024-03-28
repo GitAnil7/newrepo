@@ -6,6 +6,7 @@ pipeline{
                 sh 'echo "this is the master branch" '
             }
         }
+	}
     stages {
         stage('sprint1') {
             steps {
