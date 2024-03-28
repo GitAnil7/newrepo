@@ -13,7 +13,7 @@ pipeline{
             }
         }
     stages {
-        stage('deploy application') {
+        stage('hotfix') {
             steps {
                 sh 'echo "deploy application" '
             }
